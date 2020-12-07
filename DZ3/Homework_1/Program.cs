@@ -22,11 +22,9 @@ namespace Homework_1
 
 			printer.Print(season.ToString());
 
-			
-			//This for loop is changed so that it iterates from 0 to 1, since there is only one season; if there were multiple seasons, loop would iterate till' seasons.length
-			for (int i = 0; i < 1; i++)
+			for (int i = 0; i < season.Length; i++)
 			{
-				season.AddView(TvUtilities.GenerateRandomScore());  //and in that case, this line would start ith seasons[i]
+				season[i].AddView(TvUtilities.GenerateRandomScore());  
 			}
 		
 			printer.Print(season.ToString());
