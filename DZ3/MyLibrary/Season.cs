@@ -9,11 +9,22 @@ namespace MyLibrary
         int noOfSeason;
         Episode[] episodes;
 
+        public int Length{ get; }
+        
+
+        public Episode this[int i]
+        {
+            get { return episodes[i]; }
+            set { episodes[i] = value; }
+        }
+
         public Season(int noOfSeason, Episode[] episodes)
         {
             this.noOfSeason = noOfSeason;
             this.episodes = episodes;
+            this.Length = episodes.Length;
         }
+
 
         public void AddView(double randomRating)
             //adding view to each episode in season
