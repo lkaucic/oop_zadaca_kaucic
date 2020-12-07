@@ -1,9 +1,0 @@
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\bin\Debug\netcoreapp3.1\MyLibrary.deps.json
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\bin\Debug\netcoreapp3.1\MyLibrary.dll
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\bin\Debug\netcoreapp3.1\MyLibrary.pdb
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.AssemblyInfoInputs.cache
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.AssemblyInfo.cs
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.csproj.CoreCompileInputs.cache
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.dll
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.pdb
-C:\Users\Luka\Desktop\OOP auditorne\MyLibrary\obj\Debug\netcoreapp3.1\MyLibrary.csprojAssemblyReference.cache
