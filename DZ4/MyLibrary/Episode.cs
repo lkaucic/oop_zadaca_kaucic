@@ -21,6 +21,7 @@ namespace MyLibrary
         public Episode() { }
         public Episode(int audienceCount, double sumOfRatings, double maxRating, Description about) { AudienceCount = audienceCount; SumOfRatings = sumOfRatings; MaxRating = maxRating; description = about; }
 
+        // deep copy constructor, must be included here so one in class Season can work (If not written, we would get error message given in Program.cs)
         public Episode(Episode other)
         {
             AudienceCount = other.AudienceCount;

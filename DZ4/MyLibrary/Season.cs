@@ -7,9 +7,10 @@ using System.Linq;
 namespace MyLibrary
 {
     [Serializable]
+    // in order for foreach with season to work, we need to implement IEnumberable interface, but with class Episode as a type
     public class Season : IEnumerable<Episode>
     {
-        List<Season> seasons = new List<Season>();
+        
 
         int noOfSeason;
         List<Episode> episodes = new List<Episode>();
@@ -31,6 +32,7 @@ namespace MyLibrary
             this.Length = episodes.Count;
         }
 
+        // deep copy constructor...since episodes is a list, we're using foreach loop to make a deep copy of each original episode and asign it's value to corresponding episode in copied episodes list in object other
         public Season(Season other)
         {
             episodes = new List<Episode>();
@@ -84,6 +86,8 @@ namespace MyLibrary
 
         }
 
+        // we're using linq to find if there's any episode with the name passed to the method and later we're using RemoveAll method to remove all episodes with that name
+        // using $\textbf{\lambda}$ expressions (x represents an episode)
         public void Remove(string name)
         {
            
@@ -101,6 +105,7 @@ namespace MyLibrary
             episodes.Add(episode);
         }
 
+        // since we're implementing IEnumberable<T> interface, we must give definitions of lower two methods
         public IEnumerator<Episode> GetEnumerator()
         {
             foreach (var episode in episodes)

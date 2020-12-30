@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Luka\\Desktop\\OOP auditorne\\MyLibrary\\MyLibrary.csproj": {}
+    "C:\\Users\\Luka\\Desktop\\OOP Auditorne\\MyLibrary\\MyLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Luka\\Desktop\\OOP auditorne\\MyLibrary\\MyLibrary.csproj": {
+    "C:\\Users\\Luka\\Desktop\\OOP Auditorne\\MyLibrary\\MyLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Luka\\Desktop\\OOP auditorne\\MyLibrary\\MyLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\Luka\\Desktop\\OOP Auditorne\\MyLibrary\\MyLibrary.csproj",
         "projectName": "MyLibrary",
-        "projectPath": "C:\\Users\\Luka\\Desktop\\OOP auditorne\\MyLibrary\\MyLibrary.csproj",
+        "projectPath": "C:\\Users\\Luka\\Desktop\\OOP Auditorne\\MyLibrary\\MyLibrary.csproj",
         "packagesPath": "C:\\Users\\Luka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Luka\\Desktop\\OOP auditorne\\MyLibrary\\obj\\",
+        "outputPath": "C:\\Users\\Luka\\Desktop\\OOP Auditorne\\MyLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Luka\\AppData\\Roaming\\NuGet\\NuGet.Config",
